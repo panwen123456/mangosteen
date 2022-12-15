@@ -4,8 +4,10 @@ import {createRouter} from 'vue-router'
 import { routes } from './config/routes'
 import { history } from './shared/history'
 
+console.log(routes)
 
 
+//routes的类型是RouteRecordRaw
 const router = createRouter({ history, routes })
 
 const app = createApp(App)
